@@ -1,0 +1,95 @@
+
+@media only screen and (max-width: 544px) {
+
+    .fit{
+        width: fit-content;
+    }
+    .registerDateDay{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #191970;
+}
+
+.login-box h1 {
+    float: left;
+    border-bottom: 4px solid #191970;
+    margin-bottom: 50px;
+    padding: 13px;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #191970;
+}
+
+.fa {
+    width: px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    margin: 0 10px;
+}
+
+.button {
+    width: 100%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #191970;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+
+/* ===================adminPage.css=================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the header */
+
+header,
+footer {
+    display: flow-root;
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    float: right;
+}
+
+.setDateDayChangesDiv {
+    float: left;
+}
+
+.site {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
